@@ -49,7 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FortuneEmployee">
+  <component name="RunManager" selected="Application.CsvReader">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -157,9 +157,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CsvReader" />
         <item itemvalue="Application.FortuneEmployee" />
         <item itemvalue="Application.FindLowestDifference" />
-        <item itemvalue="Application.CsvReader" />
         <item itemvalue="Application.UseQueue" />
         <item itemvalue="Application.DataReader" />
       </list>

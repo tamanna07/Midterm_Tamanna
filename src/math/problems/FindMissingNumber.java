@@ -13,5 +13,41 @@ public class FindMissingNumber {
          */
          int [] array = new int[]{10, 2, 1, 4, 5, 3, 7, 8, 6};
 
+
+        int a = 10;
+
+        int sumOfnums = sumOfnumbers(a);
+
+        int sumOfElements = sumOfElements(array);
+
+        int result = sumOfnums - sumOfElements;
+
+        System.out.println("Missing number = "+result);
     }
-}
+
+    static int sumOfnumbers(int a)
+    {
+        int sum = (a * (a+1))/ 2;
+
+        return sum;
+    }
+
+    static int sumOfElements(int[] array)
+    {
+        int sum = 0;
+
+        for (int i = 0; i < array.length; i++)
+        {
+            sum = sum + array[i];
+        }
+        return sum;
+    }
+
+
+
+
+
+
+
+    }
+

@@ -12,7 +12,7 @@ public class UseQueue {
 		 * Use For Each loop and while loop with Iterator to retrieve data.
 		 * 
 		 */
-		
+
 
 		Queue<String> fruits =new LinkedList<String>();
 		fruits.add("Apple");
